@@ -1,0 +1,1 @@
+/Users/angcyo/project/flutter/WiFiFlutter/packages/wifi_scan/example/build/app/intermediates/cxx/Debug/2s4y4hz2/obj/x86

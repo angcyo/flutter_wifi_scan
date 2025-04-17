@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - wifi_scan (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - wifi_scan (from `.symlinks/plugins/wifi_scan/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  wifi_scan:
+    :path: ".symlinks/plugins/wifi_scan/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  wifi_scan: 6d20b3b4f59bbad1ddcf3e241560f3acd62f6cbe
+
+PODFILE CHECKSUM: c4c93c5f6502fe2754f48404d3594bf779584011
+
+COCOAPODS: 1.16.2
