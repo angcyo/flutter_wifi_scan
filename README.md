@@ -1,4 +1,4 @@
-# flutter_wifi_scan
+# flutter_wifi_scan [![pub package](https://img.shields.io/pub/v/flutter_wifi_scan.svg)](https://pub.dev/packages/flutter_wifi_scan)
 
 这个插件`fork`自`https://pub.dev/packages/wifi_scan`, 添加了如下功能:
 
