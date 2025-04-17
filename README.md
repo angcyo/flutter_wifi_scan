@@ -2,10 +2,10 @@
 
 这个插件`fork`自`https://pub.dev/packages/wifi_scan`, 添加了如下功能:
 
-- `connect`: 连接到指定wifi (仅Android)
-- `disconnect`: 断开连接的wifi (仅Android)
-- `getCurrentSSID`: 获取当前连接的wifi SSID (仅Android)
-- `getCurrentIP`: 获取当前分配的ip地址 (仅Android)
+- `connect`: 连接到指定wifi (仅`Android`)
+- `disconnect`: 断开连接的wifi (仅`Android`)
+- `getCurrentSSID`: 获取当前连接的wifi SSID (仅`Android`)
+- `getCurrentIP`: 获取当前分配的ip地址 (仅`Android`)
 
 ---
 
