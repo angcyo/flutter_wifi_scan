@@ -114,6 +114,10 @@ class WiFiScan {
   /// Get current SSID.
   Future<String?> getCurrentSSID() async =>
       await _channel.invokeMethod<String?>('getCurrentSSID');
+
+  /// Get current IP.
+  Future<String?> getCurrentIP() async =>
+      await _channel.invokeMethod<String?>('getCurrentIP');
 }
 
 enum EnterpriseCertificateEnum { WPA2_PSK, WPA3_SAE }

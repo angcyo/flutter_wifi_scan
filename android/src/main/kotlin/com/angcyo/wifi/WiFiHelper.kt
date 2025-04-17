@@ -58,6 +58,29 @@ object WiFiHelper {
         return null
     }
 
+    /**
+     * 获取当前网络的ip地址
+     * */
+    @JvmStatic
+    fun getCurrentIP(context: Context): String? {
+        val wifiManager =
+            context.applicationContext.getSystemService(Context.WIFI_SERVICE) as? WifiManager
+                ?: return null
+
+        val wifiInfo = wifiManager.connectionInfo
+        val ipAddress = wifiInfo.ipAddress
+        return if (ipAddress == 0) {
+            null
+        } else {
+            // Convert little-endian to big-endian if needed
+            val octet1 = ipAddress and 0xff
+            val octet2 = ipAddress shr 8 and 0xff
+            val octet3 = ipAddress shr 16 and 0xff
+            val octet4 = ipAddress shr 24 and 0xff
+            return String.format("%d.%d.%d.%d", octet1, octet2, octet3, octet4)
+        }
+    }
+
     @JvmStatic
     fun requestNetwork(
         result: Result,

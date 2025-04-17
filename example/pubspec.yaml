@@ -18,7 +18,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  wifi_scan:
+  flutter_wifi_scan:
     # When depending on this package from a real application you should use:
     #   wifi_scan: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

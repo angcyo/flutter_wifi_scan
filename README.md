@@ -1,3 +1,14 @@
+# flutter_wifi_scan
+
+这个插件`fork`自`https://pub.dev/packages/wifi_scan`, 添加了如下功能:
+
+- `connect`: 连接到指定wifi (仅Android)
+- `disconnect`: 断开连接的wifi (仅Android)
+- `getCurrentSSID`: 获取当前连接的wifi SSID (仅Android)
+- `getCurrentIP`: 获取当前分配的ip地址 (仅Android)
+
+---
+
 <h3><a href="https://wifi.flutternetwork.dev/" ><img src="https://raw.githubusercontent.com/flutternetwork/WiFiFlutter/master/logo/logo%2Bname_vertical_color.png" alt="WiFiFlutter" height="112"/></a>| <code>wifi_scan</code></h3>
 
 <p>

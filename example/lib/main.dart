@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:wifi_scan/wifi_scan.dart';
+import 'package:flutter_wifi_scan/wifi_scan.dart';
 
 void main() {
   runApp(const MyApp());
@@ -232,11 +232,19 @@ class _AccessPointTile extends StatelessWidget {
                     }
                   },
                   child: const Text("CurrentSSID")),
-              if (kDebugMode || accessPoint.capabilities == "[ESS]")
+              OutlinedButton(
+                  onPressed: () async {
+                    final ip = await WiFiScan.instance.getCurrentIP();
+                    if (context.mounted) {
+                      kShowSnackBar(context, "ip: $ip");
+                    }
+                  },
+                  child: const Text("CurrentIP")),
+              if (accessPoint.capabilities == "[ESS]")
                 FilledButton(
                     onPressed: () async {
-                      final connected = await WiFiScan.instance
-                          .connect(ssid: title, password: "1234abcd");
+                      final connected =
+                          await WiFiScan.instance.connect(ssid: title);
                       _connectedSSID = connected == true ? title : null;
                       if (context.mounted) {
                         kShowSnackBar(context, "Connected: $connected");

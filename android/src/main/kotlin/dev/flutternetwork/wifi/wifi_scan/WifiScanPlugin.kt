@@ -277,6 +277,14 @@ class WifiScanPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
                 result.success(WiFiHelper.getCurrentSSID(context))
             }
 
+            "getCurrentIP" -> {
+                if (!::context.isInitialized) {
+                    return result.error("500", "Context is not initialized", null)
+                }
+
+                result.success(WiFiHelper.getCurrentIP(context))
+            }
+
             else -> result.notImplemented()
         }
     }

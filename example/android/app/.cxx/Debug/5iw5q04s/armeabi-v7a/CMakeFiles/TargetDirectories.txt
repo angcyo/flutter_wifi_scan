@@ -1,0 +1,2 @@
+/Users/angcyo/project/flutter/WiFiFlutter/packages/flutter_wifi_scan/example/android/app/.cxx/Debug/5iw5q04s/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/angcyo/project/flutter/WiFiFlutter/packages/flutter_wifi_scan/example/android/app/.cxx/Debug/5iw5q04s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
