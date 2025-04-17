@@ -1,4 +1,4 @@
-part of '../wifi_scan.dart';
+part of '../flutter_wifi_scan.dart';
 
 /// WiFi standards.
 enum WiFiStandards {

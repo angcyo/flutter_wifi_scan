@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_wifi_scan/wifi_scan.dart';
+import 'package:flutter_wifi_scan/flutter_wifi_scan.dart';
 
 void main() {
   const channel = MethodChannel('wifi_scan');

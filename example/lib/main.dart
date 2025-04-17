@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wifi_scan/wifi_scan.dart';
+import 'package:flutter_wifi_scan/flutter_wifi_scan.dart';
 
 void main() {
   runApp(const MyApp());

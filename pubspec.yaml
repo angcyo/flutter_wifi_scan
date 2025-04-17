@@ -5,7 +5,7 @@ homepage: https://github.com/flutternetwork/WiFiFlutter/tree/master/packages/wif
 repository: https://github.com/angcyo/flutter_wifi_scan
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=2.15.0 <4.0.0"
   flutter: ">=3.0.0"
 
 dependencies:
