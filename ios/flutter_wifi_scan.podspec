@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint wifi_scan.podspec` to validate before publishing.
+# Run `pod lib lint flutter_wifi_scan.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'wifi_scan'
+  s.name             = 'flutter_wifi_scan'
   s.version          = '0.0.1'
   s.summary          = 'Flutter plugin to scan for nearby visible WiFi access points.'
   s.description      = <<-DESC
